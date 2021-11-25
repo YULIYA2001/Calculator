@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ScientificFragment"
+    android:baselineAligned="false">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/btnSin"
+                style="@style/FuncButton"
+                android:text="@string/btn_sin" />
+
+            <TextView
+                android:id="@+id/btnCos"
+                style="@style/FuncButton"
+                android:text="@string/btn_cos" />
+
+            <TextView
+                android:id="@+id/btnTan"
+                style="@style/FuncButton"
+                android:text="@string/btn_tan" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/btnArcSin"
+                style="@style/FuncButton"
+                android:text="@string/btn_arc_sin" />
+
+            <TextView
+                android:id="@+id/btnArcCos"
+                style="@style/FuncButton"
+                android:text="@string/btn_arc_cos" />
+
+            <TextView
+                android:id="@+id/btnArcTan"
+                style="@style/FuncButton"
+                android:text="@string/btn_arc_tan" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/btnLn"
+                style="@style/FuncButton"
+                android:text="@string/btn_ln" />
+
+            <TextView
+                android:id="@+id/btnLog"
+                style="@style/FuncButton"
+                android:text="@string/btn_log" />
+
+            <TextView
+                android:id="@+id/btnFactorial"
+                style="@style/FuncButton"
+                android:text="@string/btn_factorial" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/btnE"
+                style="@style/FuncButton"
+                android:text="@string/btn_e" />
+
+            <TextView
+                android:id="@+id/btnPi"
+                style="@style/FuncButton"
+                android:text="@string/btn_pi" />
+
+            <TextView
+                android:id="@+id/btnSqRoot"
+                style="@style/FuncButton"
+                android:text="@string/btn_square_root" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/btnABS"
+                style="@style/FuncButton"
+                android:text="@string/btn_abs" />
+
+            <TextView
+                android:id="@+id/btnX2"
+                style="@style/FuncButton"
+                android:text="@string/btn_x_squared" />
+
+            <TextView
+                android:id="@+id/btnXpowerY"
+                style="@style/FuncButton"
+                android:text="@string/btn_x_power_y" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

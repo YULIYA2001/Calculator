@@ -1,0 +1,50 @@
+<resources>
+<!--    <string name="app_name">Calculator</string>-->
+    <string name="back"><![CDATA[<-]]></string>
+    <!-- символ смены режима -->
+    <string name="scientific">⮔</string>
+
+    <string name="number0">0</string>
+    <string name="number1">1</string>
+    <string name="number2">2</string>
+    <string name="number3">3</string>
+    <string name="number4">4</string>
+    <string name="number5">5</string>
+    <string name="number6">6</string>
+    <string name="number7">7</string>
+    <string name="number8">8</string>
+    <string name="number9">9</string>
+    <string name="btn_result">=</string>
+    <string name="btn_dot">.</string>
+    <string name="btn_change_sign">+/-</string>
+    <string name="btn_plus">+</string>
+    <string name="btn_minus">-</string>
+    <string name="btn_multiply">×</string>
+    <string name="btn_divide">÷</string>
+    <string name="btn_close_bracket">)</string>
+    <string name="btn_open_bracket">(</string>
+    <string name="btn_clear">C</string>
+
+    <!-- scientific functions -->
+    <string name="btn_sin">sin</string>
+    <string name="btn_cos">cos</string>
+    <string name="btn_tan">tan</string>
+    <string name="btn_arc_sin">sin<sup><small>-1</small></sup></string>
+    <string name="btn_arc_cos">cos<sup><small>-1</small></sup></string>
+    <string name="btn_arc_tan">tan<sup><small>-1</small></sup></string>
+    <string name="btn_ln">ln</string>
+    <string name="btn_log">log</string>
+    <string name="btn_square_root">√</string>
+    <string name="btn_abs">|x|</string>
+    <string name="btn_pi">π</string>
+    <string name="btn_e">e</string>
+    <string name="btn_x_squared">x<sup><small>2</small></sup></string>
+    <string name="btn_x_power_y">x<sup><small>y</small></sup></string>
+    <string name="btn_factorial">x!</string>
+    <string name="demo">Demo</string>
+    <!--    &lt;!&ndash; TODO: Remove or change this placeholder text &ndash;&gt;-->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+</resources>

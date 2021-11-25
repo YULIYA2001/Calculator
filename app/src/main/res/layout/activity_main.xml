@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/screenBackground"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="392dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:orientation="vertical"/>
+
+    <TextView
+        android:id="@+id/inputField"
+        android:layout_width="392dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:ellipsize="start"
+        android:gravity="end"
+        android:maxLines = "3"
+        android:scrollbars = "vertical"
+        android:textColor="@color/green_d"
+        android:textSize="35sp"
+        android:text=""
+        />
+
+    <TextView
+        android:id="@+id/resultField"
+        android:layout_width="392dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:ellipsize="end"
+        android:gravity="end"
+        android:textColor="@color/green_l"
+        android:textSize="35sp" />
+
+    <LinearLayout
+        android:layout_width="392dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.6"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/btnMode"
+                style="@style/NumberButton"
+                android:scaleType="center"
+                android:src="@drawable/change_mode" />
+
+
+<!--            <TextView-->
+<!--                android:id="@+id/btnTheme"-->
+<!--                style="@style/NumberButton"-->
+<!--                android:text="@string/day" />-->
+
+            <TextView
+                style="@style/NumberButton"
+                android:background="@color/screenBackground"/>
+
+            <TextView
+                style="@style/NumberButton"
+                android:background="@color/screenBackground"/>
+
+            <ImageView
+                android:id="@+id/btnBack"
+                style="@style/NumberButton"
+                android:scaleType="center"
+                android:src="@drawable/backspace" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_weight="0.1"
+            android:orientation="horizontal">
+            <View
+                android:id="@+id/divider"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_gravity="center"
+                android:background="?android:attr/listDivider" />
+        </LinearLayout>
+
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/baseFrag"
+            android:name="com.example.calculator.BaseFragment"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5"
+            tools:layout="@layout/fragment_base"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
